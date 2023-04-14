@@ -26,7 +26,7 @@
 #   include <sdkddkver.h>
 #   include <winapifamily.h>
 #endif
-#define FFMPEG_CONFIGURATION "--enable-gpl --enable-version3 --disable-bzlib --disable-iconv --disable-zlib --disable-lzma --disable-sdl2 --enable-libx264 --enable-libtheora"
+#define FFMPEG_CONFIGURATION "--enable-gpl --enable-version3 --enable-encoder=png --enable-decoder=png --disable-bzlib --disable-lzma --disable-sdl2 --enable-libx264 --enable-libtheora --enable-libass"
 #define FFMPEG_LICENSE "GPL version 3 or later"
 #define CONFIG_THIS_YEAR 2023
 #define FFMPEG_DATADIR "."
@@ -599,7 +599,7 @@
 #define CONFIG_LADSPA 0
 #define CONFIG_LCMS2 0
 #define CONFIG_LIBAOM 0
-#define CONFIG_LIBASS 0
+#define CONFIG_LIBASS 1
 #define CONFIG_LIBBLURAY 0
 #define CONFIG_LIBBS2B 0
 #define CONFIG_LIBCACA 0
@@ -672,7 +672,7 @@
 #define CONFIG_AVFOUNDATION 0
 #define CONFIG_BZLIB 0
 #define CONFIG_COREIMAGE 0
-#define CONFIG_ICONV 0
+#define CONFIG_ICONV 1
 #define CONFIG_LIBXCB 0
 #define CONFIG_LIBXCB_SHM 0
 #define CONFIG_LIBXCB_SHAPE 0
@@ -689,7 +689,7 @@
 #define CONFIG_SECURETRANSPORT 0
 #define CONFIG_SNDIO 0
 #define CONFIG_XLIB 0
-#define CONFIG_ZLIB 0
+#define CONFIG_ZLIB 1
 #define CONFIG_CUDA_NVCC 0
 #define CONFIG_CUDA_SDK 0
 #define CONFIG_LIBNPP 0
@@ -829,7 +829,7 @@
 #define CONFIG_CBS_JPEG 0
 #define CONFIG_CBS_MPEG2 1
 #define CONFIG_CBS_VP9 1
-#define CONFIG_DEFLATE_WRAPPER 0
+#define CONFIG_DEFLATE_WRAPPER 1
 #define CONFIG_DIRAC_PARSE 1
 #define CONFIG_DNN 1
 #define CONFIG_DOVI_RPU 1
@@ -858,7 +858,7 @@
 #define CONFIG_HUFFYUVENCDSP 1
 #define CONFIG_IDCTDSP 1
 #define CONFIG_IIRFILTER 1
-#define CONFIG_INFLATE_WRAPPER 0
+#define CONFIG_INFLATE_WRAPPER 1
 #define CONFIG_INTRAX8 1
 #define CONFIG_ISO_MEDIA 1
 #define CONFIG_IVIDSP 1

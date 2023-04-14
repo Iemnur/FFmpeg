@@ -191,6 +191,7 @@
     <ClCompile Include="..\libavfilter\vf_extractplanes.c" />
     <ClCompile Include="..\libavfilter\vf_alphamerge.c" />
     <ClCompile Include="..\libavfilter\vf_amplify.c" />
+    <ClCompile Include="..\libavfilter\vf_subtitles.c" />
     <ClCompile Include="..\libavfilter\vf_avgblur.c" />
     <ClCompile Include="..\libavfilter\vf_backgroundkey.c" />
     <ClCompile Include="..\libavfilter\bbox.c" />
