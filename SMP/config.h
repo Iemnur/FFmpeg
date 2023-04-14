@@ -26,7 +26,7 @@
 #   include <sdkddkver.h>
 #   include <winapifamily.h>
 #endif
-#define FFMPEG_CONFIGURATION "--enable-gpl --enable-version3 --enable-encoder=png --enable-decoder=png --disable-bzlib --disable-lzma --disable-sdl2 --enable-libx264 --enable-libtheora --enable-libass"
+#define FFMPEG_CONFIGURATION "--enable-gpl --enable-version3 --enable-encoder=png --enable-decoder=png --enable-libx264 --enable-libtheora --disable-bzlib --disable-lzma --disable-sdl2"
 #define FFMPEG_LICENSE "GPL version 3 or later"
 #define CONFIG_THIS_YEAR 2023
 #define FFMPEG_DATADIR "."
@@ -599,7 +599,7 @@
 #define CONFIG_LADSPA 0
 #define CONFIG_LCMS2 0
 #define CONFIG_LIBAOM 0
-#define CONFIG_LIBASS 1
+#define CONFIG_LIBASS 0
 #define CONFIG_LIBBLURAY 0
 #define CONFIG_LIBBS2B 0
 #define CONFIG_LIBCACA 0
